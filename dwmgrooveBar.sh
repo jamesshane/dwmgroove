@@ -9,5 +9,5 @@ while true;
         #cat /proc/meminfo | grep MemFree | awk '{ print $2 }'
         #echo "$c | $m | $d"
         xsetroot -name "$c | $mt | $d"
-        sleep 0.1;
+        sleep 0.5;
     done;
